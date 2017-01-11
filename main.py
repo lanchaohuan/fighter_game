@@ -184,4 +184,4 @@ while True:
         text3 = font2.render('fps:%d' % fps, 1, (0, 0, 0))
     screen.blit(text3, (background.get_width() - text3.get_width(), 0))
     pygame.display.update()
-#    print fps
+
